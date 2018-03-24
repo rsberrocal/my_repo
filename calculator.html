@@ -4,11 +4,12 @@
 
 <script type="text/javascript">
 
-function cube() {
+//En una función queda mejor xd
+function numPow(numPow) {
 
 var num = document.getElementById("n1");
 
-num.value = Math.pow(num.value, 3);
+num.value = Math.pow(num.value, numPow);
 
 }
 function sin() {
@@ -30,8 +31,13 @@ Number:
 
 <input type="text" id="n1"><p>
 
+<<<<<<< HEAD
     <button onclick="cube()"> x^3 </button>
     <button onclick="sin()"> sin(x) </button>
+=======
+    <button onclick="numPow(3)"> x^3 </button>
+    <button onclick="numPow(4)"> x^4 </button>
+>>>>>>> master
 
 </body>
 
